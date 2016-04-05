@@ -9,7 +9,7 @@ function goodVsEvil(good, evil) {
     function getNumbers(strIn) {
         // determine winner based on input
         // parse input string accordingly
-        return strIn.split(' '); // returns a list of numbers as strings
+        return strIn.split(" "); // returns a list of numbers as strings
     }
 
     function dotProd(u, v) {
@@ -34,7 +34,6 @@ function goodVsEvil(good, evil) {
 
 }
 
-
-console.log(goodVsEvil('1 1 1 1 1 1', '1 1 1 1 1 1 1'));
-console.log(goodVsEvil('0 0 0 0 0 10', '0 1 1 1 1 0 0'));
-console.log(goodVsEvil('1 0 0 0 0 0', '1 0 0 0 0 0 0'));
+console.log(goodVsEvil("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
+console.log(goodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0"));
+console.log(goodVsEvil("1 0 0 0 0 0", "1 0 0 0 0 0 0"));
