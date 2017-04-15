@@ -1,7 +1,7 @@
 function solution(input, markers) {
     let str = input.split("\n")
     markers.forEach(mark => {
-        str = str.map(item => item.split(mark)[0])
+        str = str.map(item => item.split(mark)[0].trim())
     })
     return str.join('\n')
 }
